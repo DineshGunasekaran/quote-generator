@@ -14,8 +14,8 @@ async function getQuote(url) {
   const response = await fetch(url);
   let data = await response.json();
   console.log(data);
-  quoteTextEle.innerHtml = data.content;
-  authorTextEle.innerHtml = data.author;
+  quoteTextEle.innerHTML = data.content;
+  authorTextEle.innerHTML = data.author;
 
 
 }
