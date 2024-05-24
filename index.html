@@ -11,10 +11,14 @@
     <div id="quote-box">
       <h2>Quoto of the day</h2>
       <!-- The <blockquote> tag specifies a section that is quoted from another source. -->
-      <blockquote >Loading...</blockquote>
-      <span>Loading...</span>
+      <blockquote id="quoteEle" >Loading...</blockquote>
+      <span id="authorEle">Loading...</span>
+      <div>
+        <button type="button">New Quote</button>
+        <button type="button" onclick="getQuote(apiURL)"><img src="media/Logo_of_Twitter.svg.png" alt="twitter">Twitter</button>
+      </div>
     </div>
   </div>
-  
+  <script src="script.js"></script>
 </body>
 </html>
